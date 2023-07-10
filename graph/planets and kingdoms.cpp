@@ -88,6 +88,4 @@ int main()
         cout << kingdom[i] << " ";
     }
 }
-// we perform kosaraju's algorithm and find the scc to which each planet belongs to,.. while
-// performing the second dfs,.. we also mark the planets with the current position of the kingdom,.. which
-// is denoted in the above code by the variable c declared in line 76
+// we perform kosaraju's algorithm and find the scc to which each planet belongs to,.. while performing the second dfs,.. we also mark the planets with the current position of the kingdom,.. which is denoted in the above code by the variable c declared in line 76

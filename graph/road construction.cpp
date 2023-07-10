@@ -81,6 +81,4 @@ int32_t main()
         }
     }
 }
-// we use dsu,.. while merging two nodes,if their parents were same,.. we return false,.. otherwise return true
-// hence if two nodes were merged whose parents were different,.. then we can see that the number of components decreases
-// otherwise if theri parents are same,.. it remains unchanged
+// we use dsu,.. while merging two nodes,if their parents were same,.. we return false,.. otherwise return true hence if two nodes were merged whose parents were different,.. then we can see that the number of components decreases otherwise if theri parents are same,.. it remains unchanged

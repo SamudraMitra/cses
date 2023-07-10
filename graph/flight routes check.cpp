@@ -90,7 +90,4 @@ int main()
         cout << nodes[1] << " " << nodes[0] << "\n";
     }
 }
-// the question reduces itself to the simple problem of checking if the entire graph is a single stringly connected component or not
-// we apply kosaraju's algorithm to find sccs
-// for each scc ,.. we store the head node i.e. while doing the second dfs in the decreasing order of finish times
-// if there are 2 or more sccs,.. we print head nodes of the first 2 SCCs
+// the question reduces itself to the simple problem of checking if the entire graph is a single stringly connected component or not we apply kosaraju's algorithm to find sccs for each scc ,.. we store the head node i.e. while doing the second dfs in the decreasing order of finish times if there are 2 or more sccs,.. we print head nodes of the first 2 SCCs

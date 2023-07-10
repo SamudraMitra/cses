@@ -184,11 +184,4 @@ int main()
         }
     }
 }
-// this is a successor graph,.. so it can be divided into components having a cycle and a paths pointing to the cycle
-// so if the nodes belong to the same cycle,.. then the distance is (dfs number(v)-dfs number(u)+cyclelength)%cyclelength
-// else if both are not part of any cycle,.. then if we jump from u by (dfs number(v)-dfs number(v)), and we reach v,.. then the answer is jump
-// else its -1
-// now if one node is in a cycle and the other isnt
-// then the one outside the cycle,.. we find the nearest cycle node to it using binary jumping and binary search
-// let this closest cycle node be called interm(as in intermediate node)
-// now dist = distance between u and interm +  distance between interm and y(can be found using (dfs number(y)-dfs number(interm)+cyclelength)%cyclelength.. as shown int the above case)
+// this is a successor graph,.. so it can be divided into components having a cycle and a paths pointing to the cycle so if the nodes belong to the same cycle,.. then the distance is (dfs number(v)-dfs number(u)+cyclelength)%cyclelength else if both are not part of any cycle,.. then if we jump from u by (dfs number(v)-dfs number(v)), and we reach v,.. then the answer is jump else its -1 now if one node is in a cycle and the other isnt then the one outside the cycle,.. we find the nearest cycle node to it using binary jumping and binary search let this closest cycle node be called interm(as in intermediate node) now dist = distance between u and interm +  distance between interm and y(can be found using (dfs number(y)-dfs number(interm)+cyclelength)%cyclelength.. as shown int the above case)

@@ -112,4 +112,4 @@ int main()
     }
     cout << direc << "\n";
 }
-// used simple bfs and stored parent fir path
+// used simple bfs and stored parent for path

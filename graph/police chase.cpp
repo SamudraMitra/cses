@@ -121,5 +121,5 @@ int main()
 }
 // this is a problem of the finding the minimum cut
 // this is implemented using the ford fulkerson algorithm
-/// it is strongly recommended to either solve or read the editorial of download speed problem proceeding
+// it is strongly recommended to either solve or read the editorial of download speed problem proceeding
 // recommended reading material: https://cses.fi/book/book.pdf#page=195

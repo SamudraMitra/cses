@@ -53,4 +53,4 @@ int main()
     }
     cout << cnt;
 }
-// used simple bfs
+// used simple bfs in a grid

@@ -71,6 +71,4 @@ int main()
     }
     cout << dist[n] << " " << ways[n] << " " << minc[n] - 1 << " " << maxc[n] - 1 << "\n";
 }
-// state djikstra
-// for each node,.. maintain the given four states,..
-// dist     ways    minc     maxc
+// state djikstra for each node,.. maintain the given four states,..:dist     ways    minc     maxc

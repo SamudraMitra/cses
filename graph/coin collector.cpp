@@ -154,7 +154,4 @@ int main()
     }
     cout << res << "\n";
 }
-// we convert the given graph to a DAG,.. so the collector can visit one node os the DAG and collect all the coins which were originally present
-// in the nodes which were converted to this node in the DAG
-// to make it easier to implement SCC,.. I have made a class SCCmaker,.. u can go through the above
-// code and save it as a template to easily implement conversion of a grpah to a DAG in future :)
+// we convert the given graph to a DAG,.. so the collector can visit one node os the DAG and collect all the coins which were originally present in the nodes which were converted to this node in the DAG to make it easier to implement SCC,.. I have made a class SCCmaker,.. u can go through the above code and save it as a template to easily implement conversion of a grpah to a DAG in future :)

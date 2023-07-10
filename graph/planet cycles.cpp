@@ -63,7 +63,4 @@ int main()
     for (ll i = 1; i <= n; i++)
         cout << answer[i] << " ";
 }
-// this is again a successor graph,.. so we divide it into components having a cycle and paths pointing to the cycles,..
-// so we do dfs,.. and keep track of the dfs numbers
-// for each node in the cycle,.. the answer is the cycle length.. for other nodes,..
-// let the node be x,..ans[x] = ans[nextnode[x]]+1
+// this is again a successor graph,.. so we divide it into components having a cycle and paths pointing to the cycles,.. so we do dfs,.. and keep track of the dfs numbers for each node in the cycle,.. the answer is the cycle length.. for other nodes,.. let the node be x,..ans[x] = ans[nextnode[x]]+1

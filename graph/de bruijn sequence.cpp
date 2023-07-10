@@ -101,7 +101,7 @@ int main()
 // n−1 characters and each edge adds one character to the string. The following
 // graph corresponds to the above scenario
 
-//---refer to the image in the readme file---
+// ---refer to the image in the readme file---
 
 // An Eulerian path in this graph corresponds to a string that contains all
 //  strings of length n. The string contains the characters of the starting node and
