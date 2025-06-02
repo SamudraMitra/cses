@@ -20,8 +20,8 @@ int main()
         ll n;
         cin >> n;
         ll dp[n + 1][2];
-        dp[1][0] = 1;
-        dp[1][1] = 1;
+        dp[1][0] = 1; // 0-> slit in between
+        dp[1][1] = 1; // 1-> no slit in between
         for (ll i = 2; i <= n; i++)
         {
             dp[i][0] = (dp[i - 1][0] + dp[i - 1][1] + dp[i - 1][0] * 3) % mod;
