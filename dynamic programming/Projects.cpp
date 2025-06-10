@@ -13,16 +13,6 @@ ll gcd(ll a, ll b)
 {
     return b == 0 ? a : gcd(b, a % b);
 }
-struct pairHasher
-{
-    ll operator()(const pair<ll, ll> &V) const
-    {
-        ll hash = 2;
-        hash ^= V.first + 0x9e3779b9 + (hash << 6) + (hash >> 2);
-        hash ^= V.second + 0x9e3779b9 + (hash << 6) + (hash >> 2);
-        return hash;
-    }
-};
 ll solve(vector<vector<ll>> &v, ll n, ll idx, vector<ll> &dp)
 {
     if (n == idx)
@@ -48,7 +38,6 @@ int main()
         cin >> i[0] >> i[1] >> i[2];
     }
     vector<ll> dp(n, -1);
-    // unordered_map<pair<ll, ll>, ll, pairHasher> dp;
     sort(v.begin(), v.end(), [&](vector<ll> &a, vector<ll> &b)
          { return (a[0] < b[0]); });
     cout << solve(v, n, 0, dp);
